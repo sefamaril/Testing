@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtraPointsCalculator", "ExtraPointsCalculator\ExtraPointsCalculator.csproj", "{9C2CEEE6-9E34-4C76-AC7E-680718828287}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtraPointsCalculator.UnitTests", "Tests\ExtraPointsCalculator.UnitTests\ExtraPointsCalculator.UnitTests.csproj", "{45EC7FB9-358D-4BE0-A815-6C6EC4D7B534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtraPointsCalculator.UnitTests", "Tests\ExtraPointsCalculator.UnitTests\ExtraPointsCalculator.UnitTests.csproj", "{45EC7FB9-358D-4BE0-A815-6C6EC4D7B534}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests-By-Type", "Tests-By-Type", "{13754F2C-7A94-4A5D-BAB2-0B17721B472E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45EC7FB9-358D-4BE0-A815-6C6EC4D7B534} = {13754F2C-7A94-4A5D-BAB2-0B17721B472E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {820B8AFF-1021-4DF1-9936-80FEC35CDCF5}
